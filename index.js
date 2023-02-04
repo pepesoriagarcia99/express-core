@@ -1,6 +1,8 @@
 const banner = require('./src/banner');
 const response = require('./src/utils/response');
 
+const injectionWinjectionorker = require('./src/decorators/injection/index.js');
+
 banner();
 
 module.exports = function (ip, port, apiRoot) {
